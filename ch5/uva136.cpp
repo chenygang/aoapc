@@ -20,7 +20,10 @@ int main(){
 		}
 		for(int j=0; j<3; j++){
 			LL x2 = x * coeff[j];
-			if(!s.count(x2)){ s.insert(x2); pq.push(x2);}
+			if(!s.count(x2)){ 
+				s.insert(x2);
+				pq.push(x2);
+			}
 		}
 	}
 }
