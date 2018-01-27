@@ -14,7 +14,7 @@ int main(){
 	s.insert(1);
 	for(int i=1; ; i++){
 		LL x = pq.top(); pq.pop();
-		if(i == 1500){
+		if(i == 1501){
 			cout <<"The 1500'th ugly number is " << x << ".\n";
 			break;
 		}
